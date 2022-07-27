@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+*{
+    font-family: 'Fjalla One', sans-serif;
+}
+header{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+body{
+background-image:url(./image.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+overflow: hidden;
+height: 100vh;
+}
+button{
+    margin-left: 80rem;
+}
+.main{
+    display: flex;
+}
+.input{
+    margin-left: 68rem;
+
+}
+input{
+    border-radius: 10rem;
+    height: 2rem;
+    width: 13rem;
+    padding: 10px;
+    
+}
+.Subin{
+    padding: 10px 70px;
+    color:antiquewhite
+}
+.Outside-Box .time{
+    font-size: 70px;
+    font-weight: 100;
+    color: black;
+}
+.Outside-Box #am-pm{
+    font-size: 30px;
+    margin-left: 20px;
+    color: black;
+}
+.Outside-Box .date{
+    font-size: 30px;
+    color: black;
+}
+.khadka .others{
+    display: flex;
+    flex-direction: column;
+    background: rgba(24, 24, 27,0.6);
+    padding: 20px;
+    border-radius: 15px;
+    margin:10px 0;
+    border: 1px solid white;
+    height: 15rem;
+    width: 20rem;
+}
+.khadka .others .weather-item{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+
+.khadka {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
